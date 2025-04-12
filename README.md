@@ -6,10 +6,7 @@ O **NumericSystemConverter** é uma aplicação desenvolvida em Java que permite
 
 ## Funcionalidades
 
-- Conversão de números binários para decimal, octal e hexadecimal.
 - Conversão de números decimais para binário, octal e hexadecimal.
-- Conversão de números octais para binário, decimal e hexadecimal.
-- Conversão de números hexadecimais para binário, decimal e octal.
 
 ## Tecnologias Utilizadas
 
@@ -19,6 +16,7 @@ O **NumericSystemConverter** é uma aplicação desenvolvida em Java que permite
 
 A estrutura de diretórios do projeto é organizada da seguinte forma:
 
+```
 NumericSystemConverter/
 ├── src/
 │   └── com/
@@ -29,6 +27,7 @@ NumericSystemConverter/
 │                   └── Converter.java
 ├── .gitignore
 └── README.md
+```
 
 - `src/com/br/gabriel/numericsystemconverter/Main.java`: Classe principal que inicializa a aplicação.
 - `src/com/br/gabriel/numericsystemconverter/Converter.java`: Classe responsável pelas operações de conversão entre os sistemas numéricos.
